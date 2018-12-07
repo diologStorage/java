@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-//разложение на множетили
+//разложение на множители
 //поиск в массиве возвращает индекс
 //инвертирование массива
 //циклический сдвиг в массиве влево
@@ -45,7 +45,7 @@ public class LightAlhoritms {
         return true;
     }
     
-    public static void factorizeNumber(int x){//разложение на множетили
+    public static void factorizeNumber(int x){//разложение на множители
         int divisor = 2;
         while (x > 1){
             if (x % divisor == 0){
